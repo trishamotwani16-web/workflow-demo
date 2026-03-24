@@ -4,13 +4,9 @@ jobs:
  first_job:
 runs-on : ubuntu-latest
  steps:
- - name: welcome Message
+ name: welcome Message
  run: echo "my first githib workflow command"
-
- name: List Files
- run: ls
-
- name: show index.html 
+name: show index.html 
  run: cat index.html
  
  
