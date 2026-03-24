@@ -1,13 +1,12 @@
 name: First workflow
 on: push 
-jobs: 
- first_job:
-runs-on : ubuntu-latest
- steps:
- name: welcome Message
- run: echo "my first githib workflow command"
-name: show index.html 
- run: cat index.html
+jobs:
+  first_job:
+    runs-on : ubuntu-latest
+steps:
+ - name: welcome Message
+   run: echo "my first githib workflow command"
+
  
  
    
